@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso HTML</title>
+    <link rel="shortcut icon" href="./assets/img/imagen2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header class="sticky-tope">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!--cambias color si quieres xd-->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assets/img/imagen2.png" width="35" height="35" alt="VETERRINARIA-CANINA, CDMX"></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!--aqui es icono-->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">Acerca de nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Redes Sociales</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+   <div class="container-fluid">
+    <div class="row">
+       <div class="col-12 col-md-10">
+        <section id="home" class="shadow-sm p-3 mb-5 bg-body rounded">
+            <h4 class="text-primary text-center">
+                <i data-feather="github"></i>
+                Bienvenido, conoce nuestros servicios 
+            </h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center">
+                        <img alt="VETERINARIA-MORELOS, CUIDADO, GATOS" width="300" height= "200" class="img-thumbnail" src="./assets/img/img1.jpg" />
+                        <h5 class="my-4">Estética veterinaria</h5>
+                        <small class="text-start">Ven y consiente a tu mascota, cuidados personalizados como: baño, cepillado , limpieza profunda. </small>
+                    </div>
+
+                    <div class="col-12 col-md-4 text-center">
+                        <img width="300" height= "200" class="img-thumbnail" src="./assets/img/img2.jpg" />
+                        <h5 class="my-4">Vacunas </h5>
+                        <small class="text-start">¿Tú mascota se encuentra enferma? No lo pienses mas y atiéndelo con nosotros</small>
+                    </div>
+
+                    <div class="col-12 col-md-4 text-center">
+                        <img width="300" height= "200" class="img-thumbnail" src="./assets/img/img3.webp" />
+                        <h5 class="my-4">Consulta de mascotas</h5>
+                        <small class="text-start">¿Tu mascota cuenta con todas sus vacunas?  </small>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="shadow-sm p-3 mb-5 bg-body rounded" >
+            <h4><i data-feather="help-circle"></i>Acerca de nosotros</h4>
+            <div class="container">
+                <p>
+                    Somos una empresa enfocada...
+                </p>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <img src="./assets/img/me-gusta.png" width="100" height="100" alt="" class="src">
+                                <p class="text-pink">Amor por las mascotas</p>
+                            </div>
+                            <div class="col-12">
+                                <img src="./assets/img/perro.png" width="100" height="100" alt="" class="src">
+                                <p class="text-pink">Dedicación a las mascotas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d481623.83321979584!2d-99.69913193437499!3d19.425959899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fed1401a3609%3A0xb54f09bbcc91f46e!2sVETERINARIA%20LOS%20ANGELES!5e0!3m2!1ses-419!2smx!4v1673538167095!5m2!1ses-419!2smx" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="shadow-sm p-3 mb-5 bg-body rounded">
+            <h4 class="text-primary text-center">
+                <i data-feather="mail"></i>
+                Contáctanos
+            </h4>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="Email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Número de teléfono</label>
+                                <input type="tel" class="form-control" id="phone" aria-describedby="emailHelp" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Mensaje</label>
+                                <textarea rows="3" class="form-control" id="description" aria-describedby="emailHelp" required>
+                                </textarea>
+                            </div>
+                        </div>
+                        <div class="col-12 text-end">
+                            <button class="btn btn-success px-3" type="submit">Enviar </button>
+
+                        </div>  
+                    </div>
+
+                </form>
+            </div>
+        </section>
+       </div>
+       <div class="col-12 col-md-2">
+        <aside>
+            <div class="card">
+                <img style="background-color: brown;" src="./assets/img/vacuna.jpg" class="card-img-top img-thumbnail border-danger-img" alt="VACUNA-GRATIS, VETERINARIA-MORELOS">
+                <div class="card-body">
+                  <h5 class="card-title text-danger">Campaña de vacunación antirrábica</h5>
+                  <p class="card-text">Ven a vacunar a tu mascota anti-rabia, aprovecha que del <b>1 de enero hasta el 30 de enero es gratis</b></p>
+                </div>
+              </div>
+        </aside>
+       </div>
+    </div>
+   </div>
+<!-- Footer -->
+<footer id="footer" class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+     
+      <!-- Right -->
+      <div>
+        <a target="_blank" href="https://es-la.facebook.com/" class="me-4 link-secondary">
+          <i class="text-primary"  data-feather="facebook"></i>
+        </a>
+        <a target="_blank" href="https://twitter.com/" class="me-4 link-secondary">
+          <i class="text-primary" data-feather="twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a target="_blank" href="https://www.instagram.com/" class="me-4 link-secondary">
+          <i class="text-primary" data-feather="instagram"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Veterinaria clímica Canis
+            </h6>
+            <p>
+             Ven y conocenos, siguenos en todas nuestras redes sociales para conocer más de Nosotros
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Servicios
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Estética veterinaria</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vacunas</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Consulta médica</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Accesorios para mascotas</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i>Cuahtémoc, Ciudad de México #57</p>
+            <p>
+              <i class="text-danger" data-feather="mail"></i>
+              veterinary@gmail.com
+            </p>
+            <p><i class="text-success" data-feather="phone"></i> 777 234 56 70</p>
+           
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">veterinariacanina.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    <!--<header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <p class="bg-danger">Hola mundo</p>
+                </div>
+                <div class="col-4">
+                <div class="bg-primary">.</div>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <li>
+            <a href="#home ">Inicio</a>
+            <a href="#about">Acerca de nosotros</a>
+            <a href="#contact">Contacto</a>
+        </li>
+    </nav>
+    <section id="home">
+        <h4>Inicio</h4>
+        <figure>
+        <img alt="VETERINARIA-CUIDA MASCOTAS-MASCOTAS" src="./assets/img/veterinaria.jpg" width="200" height="150"/>
+        </figure>
+        <small>
+            El programa educativo de Medicina Veterinaria y Zootecnia procura el bienestar de los animales, el cuidado en la producción de alimentos de origen animal. Colabora en el mantenimiento de la salud pública, a través de la producción y salud de las especies productoras de leche y carne (bovinos, porcinos, aves, ovinos, caprinos, entre otras), especies de compañía y recreación (perros, gatos, equinos, entre otros). En la carrera se desarrollan actividades profesionales como son: producción animal, medicina preventiva, mejoramiento genético, reproducción animal, diagnóstico, terapéutica, cirugía aplicada, vigilancia epidemiológica, inocuidad alimentaria, nutrición, administración pecuaria, entre otras.
+        </small>
+    </section>
+
+    
+    <section id="about">
+        <h4>Acerca de Nosotros</h4>
+        <p>Somos una empresa dedicada a la veterinaria de gatos y perros</p>
+    </section>
+
+    
+    <section id="contact">
+        <h4>Contactanos</h4>
+        <form action="">
+            <label>Correo electrónico</label>
+            <input type="email" id="email" required>
+
+            <label>Teléfono</label>
+            <input type="phone" id="phone" required minlength="10">
+            
+            <label>Mensaje</label>
+            <textarea rows="3"></textarea>
+            <button type="submit">Enviar</button>
+            <input type="color">
+        </form>
+    </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="bg-primary col-12 col-md-6 col-xl-4">  
+                    </div>
+                </div>
+            </div>
+        </section>
+    <aside>
+
+    </aside>
+
+    <footer>
+        <p>Created by UTEZ</p>
+    </footer>-->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script>
+        feather.replace()
+      </script>
+</body>
+</html>
